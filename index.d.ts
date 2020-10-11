@@ -9,6 +9,10 @@ declare module '@vue/runtime-core' {
     interface ComponentCustomProperties {
       $notify: (data: INotification ) => void
     }
+
+    interface App {
+      notify: (data: INotification) => void
+    }
 }
 
 export default VueNotify;

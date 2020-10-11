@@ -17,5 +17,6 @@ export default {
         app.component("notifications", Notifications);
 
         app.config.globalProperties.$notify = $notify;
+        app.notify = $notify;
     }
   }

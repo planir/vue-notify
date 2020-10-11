@@ -1,10 +1,10 @@
 {
   "name": "vue-notify3",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/vueNotify.common.js",
   "types": "index.d.ts",
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve demo/main.ts",
     "build": "vue-cli-service build --target lib --name vueNotify src/index.ts",
     "lint": "vue-cli-service lint"
   },
