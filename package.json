@@ -1,8 +1,7 @@
 {
-  "name": "vue-notify",
+  "name": "vue-notify3",
   "version": "0.1.0",
   "main": "dist/vueNotify.common.js",
-  "private": true,
   "types": "index.d.ts",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -32,5 +31,21 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3"
-  }
+  },
+  "description": "## Project setup ``` npm install ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planir/vue-notify.git"
+  },
+  "keywords": [
+    "notify",
+    "alert",
+    "notification"
+  ],
+  "author": "planir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/planir/vue-notify/issues"
+  },
+  "homepage": "https://github.com/planir/vue-notify#readme"
 }
