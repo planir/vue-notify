@@ -1,8 +1,8 @@
-import {Plugin} from "vue";
+import {App} from "vue";
 import INotification from "./src/Include/INotification"
 
 declare class VueNotify {
-    static install: Plugin;
+    static install: (app: App) => void;
 }
 
 declare module '@vue/runtime-core' {
