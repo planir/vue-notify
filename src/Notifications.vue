@@ -63,8 +63,8 @@ export default class Notifications extends Vue {
 	.notifications {
 		position: absolute;
 		right: 0;
-		height: 100%;
-		top: 0;
+		bottom: 0;
+		max-height: 100%;
 		width: 300px;
 		padding-right: 8px;
 		display: flex;
